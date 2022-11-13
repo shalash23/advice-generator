@@ -58,7 +58,7 @@ Definitely mobile first methodology
 
 ### Useful resources
 
-- (https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/) - I completely forgot how to center a position absolute element and this was just on spot
+- [https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/] - I completely forgot how to center a position absolute element and this was just on spot
 
 
 
