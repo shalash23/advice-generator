@@ -32,6 +32,7 @@ main section .advice-number {
   text-transform: uppercase;
   font-weight: bolder;
   margin-top: 1em;
+  font-size: 18px;
 }
 main section .advice {
   color: #f3f3f3;
@@ -77,18 +78,24 @@ main .icon-container .icon {
   color: hsl(228deg, 45%, 44%);
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 578px) {
   section {
-    max-width: 26em;
+    max-width: 34em;
     max-height: 70%;
+  }
+  section .advice {
+    font-size: 28px;
+  }
+  section .icon-container {
+    padding: 2rem;
   }
   .icon-container:hover {
     color: #69fd06;
     background: #69fd06;
     box-shadow: 0 0 50px #69fd06;
-  }
-  .icon-container:hover .seperator {
-    width: 444px;
-    height: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

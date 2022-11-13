@@ -32,6 +32,7 @@ main {
       text-transform: uppercase;
       font-weight: bolder;
       margin-top: 1em;
+      font-size: 18px;
     }
     .advice {
       color: #f3f3f3;
@@ -82,10 +83,20 @@ main {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 578px) {
   section {
-    max-width: 26em;
+    max-width: 34em;
     max-height: 70%;
+    .advice {
+      font-size: 28px;
+    }
+    .icon-container {
+      padding: 2rem;
+    }
   }
 
   .icon-container {
@@ -93,10 +104,6 @@ main {
       color: #69fd06;
       background: #69fd06;
       box-shadow: 0 0 50px #69fd06;
-      .seperator {
-        width: 444px;
-        height: 16px;
-      }
     }
   }
 }
