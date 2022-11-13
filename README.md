@@ -26,7 +26,7 @@ Create an advice generator app. Clicking the dice generators a random advice.
 
 ### Screenshot
 
-![./Screenshot.jpg]()
+![](https://github.com/shalash23/advice-generator/screenshot1.jpeg)
 
 
 ### Links
