@@ -38,10 +38,10 @@ Create an advice generator app. Clicking the dice generators a random advice.
 
 ### Built with
 
--Sematic HTML
--Sass
--Vanilla JavaScript
--Mobile First
+- Sematic HTML
+- Sass
+- Vanilla JavaScript
+- Mobile First
 
 
 ### What I learned
