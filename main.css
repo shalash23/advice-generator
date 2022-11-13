@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  max-height: 80%;
+  width: 90%;
+  background-color: hsl(217deg, 19%, 24%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 15px;
+}
+main section .advice-number {
+  color: hsl(150deg, 100%, 66%);
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 1em;
+}
+main section .advice {
+  color: #f3f3f3;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+}
+main section .advice::before {
+  content: open-quote;
+}
+main section .advice::after {
+  content: close-quote;
+}
+main .icon-container {
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 50%;
+  padding: 1.5em;
+  transform: translateY(40px);
+  position: relative;
+}
+main .icon-container:active {
+  color: #69fd06;
+  background: #69fd06;
+  box-shadow: 0 0 50px #69fd06;
+}
+main .icon-container .icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media only screen and (min-width: 578px) {
+  section {
+    max-width: 26em;
+    max-height: 70%;
+  }
+  .icon-container:hover {
+    color: #69fd06;
+    background: #69fd06;
+    box-shadow: 0 0 50px #69fd06;
+  }
+  .icon-container:hover .seperator {
+    width: 444px;
+    height: 16px;
+  }
+}/*# sourceMappingURL=main.css.map */
